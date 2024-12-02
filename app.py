@@ -5,7 +5,7 @@ n = int(input("Кількість: "))
 class Pr:
     @staticmethod
     def progression(a, b, n):
-        sum_n = ((a + (a + b * n)) / 2) * n
+        sum_n = ((a + (b * n)) / 2) * n
         return  sum_n
 
 pr = Pr()
